@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.call-back {
+    display: flex;
+    &__item {
+        margin-right: 18px;
+    }
+    &__text {
+        color: #fff;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        text-align: right;
+    }
+    &__number {
+        color: #fff;
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+}
+
+.divider {
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+    margin: 21px auto 13px;
+}

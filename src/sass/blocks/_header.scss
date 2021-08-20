@@ -1,0 +1,41 @@
+.header {
+    position: relative;
+    &__wrapper {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        padding-top: 23px;
+        margin-right: 54px;
+    }
+    &__menu-list {
+        padding-top: 55px;
+        margin-right: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__menu-item {
+        color: #000;
+        font-size: 15px;
+        font-weight: 17px;
+        list-style-type: none;
+        margin-right: 15px;
+        padding-right: 15px;
+        border-right: 1px dotted #707070;
+        &:last-child {
+            border-right: none;
+        }
+    }
+    &__menu-link {
+        color: #fff;
+        transition: all .6s;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__call-back {
+        padding-top: 44px;
+    }
+}
