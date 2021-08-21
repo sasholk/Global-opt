@@ -1,0 +1,13 @@
+.consultation {
+    padding: 56px 0 80px;
+    &__title {
+        font-size: 28px;
+        line-height: 23px;
+        color: #3a3a3a;
+        text-align: center;
+    }
+    &__wrapper {
+        padding: 65px 159px 50px;
+        border: 1px solid #c9c9c9;
+    }
+}

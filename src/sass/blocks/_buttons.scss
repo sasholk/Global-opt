@@ -5,8 +5,15 @@
     color: #fff;
     padding: 16px 24px;
     font-size: 12px;
-    &_big {
+    text-transform: uppercase;
+    &:hover {
+        background-color: #dc5238;
+    }
+    &_bold {
         font-size: 15px;
         font-weight: 700;
+    }
+    &_big {
+        padding: 18px 44px;
     }
 }
