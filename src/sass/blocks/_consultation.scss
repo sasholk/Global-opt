@@ -7,7 +7,42 @@
         text-align: center;
     }
     &__wrapper {
+        margin-top: 70px;
         padding: 65px 159px 50px;
         border: 1px solid #c9c9c9;
+    }
+    &__form {
+        position: relative;
+    }
+    &__form-icon {
+        position: absolute;
+        top: -120px;
+        right: 50%;
+        transform: translateX(50%);
+        border: 1px solid $main-color;
+        border-radius: 100%;
+        width: 102px;
+        height: 102px;
+        padding: 17px 20px 24px 23px;
+        background-color: #fff;
+        outline: 10px solid #fff;
+    }
+    &__form-input {
+        padding: 18px 29px;
+        border-radius: 50px;
+        border: 1px solid #c9c9c9;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #101010;
+        width: 268px;
+    }
+    &__form-btn {
+        position: absolute;
+        bottom: -77px;
+        right: 50%;
+        transform: translateX(50%);
+        padding: 18px 32px;
+        outline: 13px solid #fff;
     }
 }

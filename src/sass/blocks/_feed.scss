@@ -1,0 +1,84 @@
+.feed {
+    padding: 50px 0 26px;
+    &__slider {
+        padding-top: 40px;
+        margin: 0 auto;
+        position: relative;
+    }
+    &__item {
+        transition: all .6s;
+    }
+    &__slider-arrow {
+        background-color: transparent;
+        border: unset;
+        position: absolute;
+        padding: 10px;
+    }
+    &__slider-arrowleft {
+        top: 69px;
+        left: 762px;
+        z-index: 1;
+    }
+    &__slider-arrowright {
+        top: 69px;
+        right: 762px;
+    }
+    &__photo {
+        border-radius: 100%;
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &__name {
+        padding-top: 15px;
+        color: #3a3a3a;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr {
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        text-align: justify;
+    }
+}
+
+.slick-active .feed__item {
+
+}
+
+.slick-active-last .feed__item {
+    padding: 40px 90px 0 40px;
+    opacity: .5;
+}
+
+.slick-active-first .feed__item {
+    padding: 40px 40px 0 90px;
+    opacity: .5;
+}
+
+.slick-active-first .feed__item .feed__photo ,  
+.slick-active-last .feed__item .feed__photo{
+    width: 70px;
+    height: 70px;
+}
+
+.slick-active-first .feed__item .feed__name ,  
+.slick-active-last .feed__item .feed__name {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.slick-active-first .feed__item .feed__descr ,  
+.slick-active-last .feed__item .feed__descr {
+    font-size: 10px;
+    padding-top: 5px;
+}
