@@ -1,0 +1,38 @@
+.questions {
+    padding: 62px 0 79px;
+    background: url(../img/bg-questions.jpg) center center/cover no-repeat;
+    &__wrapper {
+        padding: 0 122px;
+    }
+    &__header {
+        background-color: #25333C;
+        padding: 15px 0;
+    }
+    &__form {
+        padding: 15px 0 25px 41px;
+        background-color: rgba($color: #fff, $alpha: 0.7);
+    }
+    &__form-input, &__form-textarea {
+        padding: 18px 29px;
+        border-radius: 50px;
+        border: 1px solid #c9c9c9;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #101010;
+        width: 268px;
+    }
+    &__form-textarea {
+        padding: 16px 25px;
+        margin-top: 5px;
+        width: 813px;
+        height: 71px;
+        border-radius: 10px;
+        resize: unset;
+    }
+    &__form-btn {
+        padding: 18px 32px;
+        display: block;
+        margin: 17px auto 0;
+    }
+}
